@@ -1,0 +1,90 @@
+/* html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+table {
+    background-color: #ff33cc;
+    border-collapse: collapse;
+}
+
+thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+thead, tfoot {
+    background-color: rebeccapurple;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid purple;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 2px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+tbody tr {
+    background-color: aqua;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+} */
+
+table {
+    background-color: cadetblue;
+    border: 5px solid blue;
+    border-collapse: collapse;
+}
+
+thead th {
+    color: red;
+    background: linear-gradient(blue, green);
+    border: 2px solid grey;
+}
+
+tbody tr:nth-child(2n -1) {
+    background-color: gold;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: forestgreen;
+}
+
+tbody tr{
+    color: white;
+}
+
+caption {
+    caption-side: bottom;
+    background: linear-gradient(yellow, red);
+}

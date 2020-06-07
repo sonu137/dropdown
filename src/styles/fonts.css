@@ -1,0 +1,56 @@
+/* html {
+    font-size: 10px;
+  }
+
+  h1 {
+      font-size: 5rem;
+      text-transform: capitalize;
+      text-shadow: 1px 1px 1px red, 2px 2px 2px red;
+      text-align: center;
+      letter-spacing: 2px;
+  }
+
+  h1 + p {
+      font-weight: bold;
+  }
+
+  p::first-line {
+      letter-spacing: 4px;
+      word-spacing: 4px;
+  }
+
+  p {
+      font-size: 1.5rem;
+      color: red;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      letter-spacing: 1px;
+  } */
+
+  html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+  }

@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 1400;
+    font-family: 'Noto Serif', serif;
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    background: lightcyan ;
+}
+
+header {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    background: linear-gradient(45deg, red, transparent);
+}
+
+aside ul {
+    list-style: thumbs;
+}
+h2, p {
+    text-indent: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(45deg, rgb(214, 100, 100), transparent);
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+a {
+    color: orange;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+a:focus {
+    color: rebeccapurple;
+}
+
+a:active {
+    background: green;
+    font-style: italic;
+    font-size: 12px;
+}
+
+li {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+nav ul li{
+    margin: 8px 0;
+    padding: 10px;
+    border: 2px solid orange;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background: linear-gradient(green, yellow);
+}
